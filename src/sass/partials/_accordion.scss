@@ -1,0 +1,50 @@
+
+.card-header {
+    background-color: $colour-background-primary;
+}
+
+.card-body {
+    background-color: $colour-background-secondary;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.d-md-none.accordion {
+    -webkit-box-shadow: 10px 10px 41px -26px rgba(0,0,0,0.98);
+    -moz-box-shadow: 10px 10px 41px -26px rgba(0,0,0,0.98);
+    box-shadow: 10px 10px 41px -26px rgba(0,0,0,0.98);
+    border-radius: 5px;
+   
+}
+.collapse.show .card-body {
+    border-top: 3px solid $colour-primary;
+}
+
+.btn-link {
+    color: $colour-primary ;
+}
+
+.tab-content > .active {
+    background: $colour-background-primary;
+    display: flex;
+    padding: 2em;
+    -webkit-box-shadow: 10px 10px 41px -26px rgba(0,0,0,0.98);
+-moz-box-shadow: 10px 10px 41px -26px rgba(0,0,0,0.98);
+box-shadow: 10px 10px 41px -26px rgba(0,0,0,0.98);
+border-radius: 5px;
+
+    img {
+        width: 200px;
+    }
+
+    div {
+        padding: .5em;
+    }
+    
+    
+}
+
+.nav-link  {
+    color: $colour-primary;
+}

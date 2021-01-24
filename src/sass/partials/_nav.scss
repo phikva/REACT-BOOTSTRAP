@@ -1,0 +1,26 @@
+
+.form-control {
+    border-radius: 1px;
+    border: none;
+    width: 80%;
+}
+.form-inline {
+    // margin-right: 2em;
+}
+
+.btn-outline-success {
+    background-color: $colour-primary;
+    border:none;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+    color: $colour-background-primary ;
+}
+
+.nav-link.active {
+    background: #ffff;
+    border-radius: 2px;
+  }
+
+  .navbar {
+      background-color: $colour-background-third;
+  }

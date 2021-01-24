@@ -1,0 +1,13 @@
+h1,h2, .nav__brand {
+    font-family:  $font-secondary;
+    color: $colour-primary !important;
+}
+
+.nav__brand {
+    font-style: italic;
+}
+
+p {
+    font-family: $font-primary;
+    color: $font-colour-primary;
+}

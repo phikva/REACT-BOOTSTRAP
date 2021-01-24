@@ -1,0 +1,28 @@
+footer {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: $colour-background-primary;
+  padding: 1em;
+}
+footer > * {
+  flex: 1 100%;
+}
+
+.footer__items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+  color: grey;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 2em;
+  height: 2em;
+  color: grey;
+}
